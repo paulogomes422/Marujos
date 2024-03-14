@@ -1,0 +1,80 @@
+:root {
+  --color1: #1b2440;
+  --color2: #023373;
+  --color3: #91e0f2;
+  --color4: #f2f2f2;
+}
+
+body {
+  background-color: var(--color3) !important;
+  color: var(--color2) !important;
+}
+
+header {
+  background-image: radial-gradient(var(--color2), var(--color3));
+  color: var(--color4);
+  padding: 0 !important;
+  border-style: groove;
+}
+
+.top-bar {
+  background-color: var(--color2);
+}
+header > div > p {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.img {
+  width: 100;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+section a {
+  background-color: var(--color2) !important;
+  text-decoration: underline !important;
+}
+
+section a:hover {
+  background-color: var(--color1) !important;
+  text-decoration: underline !important;
+}
+
+.card {
+  background-color: var(--color2);
+  color: var(--color4);
+}
+
+.menu-completo a {
+  text-decoration: underline !important;
+}
+
+.menu-completo a:hover {
+  text-decoration: underline !important;
+}
+
+header a {
+  margin: 50px;
+  color: var(--color4);
+  font-size: 0.6em;
+}
+
+header a:hover {
+  color: var(--color3);
+}
+
+
+.card-body{
+  min-height: 130px;
+}
